@@ -230,6 +230,7 @@ section {
 }
 .purp-bkgd {
 	background-color: rgb(125, 70, 230);
+	background-image: url('../imgs/manhattan.jpg');
 }
 
 /************ Light Background CSS ***********/

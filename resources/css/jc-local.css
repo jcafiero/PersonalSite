@@ -191,6 +191,9 @@ p.job-title {
 .col-9 {
 	margin: 40px auto;
 }
+.col-9 p.about-descript {
+	padding: 10px 0px;
+}
 .col-9 p.school-name {
 	font-size:1.2em;
 	font-weight: 600;

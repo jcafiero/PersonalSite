@@ -13,7 +13,7 @@
 	11.Local Mobile CSS
 	12.Sticky Navigation CSS
 	13.Mobile More Section CSS
-	
+
 ****************************************************************************************/
 
 /******** 1. Browser Reset CSS *********/
@@ -28,7 +28,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tf
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
 	display: block;
 }
@@ -82,7 +82,7 @@ h4 {
     font-family: 'Roboto Slab', Arial, Helvetica, serif;
 	font-size: 1.4em;
 	font-weight: 400;
-	
+
 }
 h4 span {
 	font-size: 0.8em;
@@ -182,7 +182,11 @@ p.job-title {
 
 .purp-bkgd .intro {
 	padding: 40vh 0px 5vh;
-} 
+}
+
+.container-fluid {
+	padding: 200px 15px 100px;
+}
 
 .events li {
 	display: inline;
@@ -210,7 +214,7 @@ section {
 }
 /************ List Styling ************/
 .jc-list-type {
-	list-style: none; 
+	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
 }
@@ -310,15 +314,15 @@ a:focus, a:hover {
   opacity: 1;
   transform: translateX(0);
 }
-.cd-horizontal-timeline .events-content li.enter-right, 
+.cd-horizontal-timeline .events-content li.enter-right,
 .cd-horizontal-timeline .events-content li.leave-right {
   animation-name: cd-enter-right;
 }
-.cd-horizontal-timeline .events-content li.enter-left, 
+.cd-horizontal-timeline .events-content li.enter-left,
 .cd-horizontal-timeline .events-content li.leave-left {
   animation-name: cd-enter-left;
 }
-.cd-horizontal-timeline .events-content li.leave-right, 
+.cd-horizontal-timeline .events-content li.leave-right,
 .cd-horizontal-timeline .events-content li.leave-left {
   animation-direction: reverse;
 }
@@ -342,5 +346,3 @@ a:focus, a:hover {
     transform: translateX(0%);
   }
 }
-
-

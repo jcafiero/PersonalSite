@@ -1,0 +1,25 @@
+.skills-list ul {
+  list-style-type: none;
+}
+.skills-list .outer-skills {
+  margin: 20px;
+}
+.skills-list .outer-skills li{
+  list-style-type: none;
+  display: inline;
+}
+.course-list {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.work-list {
+  list-style-type: disc;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1.5em;
+}

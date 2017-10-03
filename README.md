@@ -1,7 +1,7 @@
 # jcafiero.github.io
 
-An interactive version of my resume that I've created from scratch using HTML, CSS, and jQuery.
+An interactive version of my resume that I've developed using HTML, CSS, and JavaScript.
 
-Note: This is still a work in progress because I've been researching new ideas to implement.
+Any feedback can be sent to mailto:jcafiero@stevens.edu!
 
 http://jcafiero.github.io
